@@ -1,0 +1,30 @@
+a.mtooltip { outline: none; cursor: help; text-decoration: none; position: relative;}
+a.mtooltip span {margin-left: -999em; padding:5px 6px; position: absolute; width:auto; white-space:nowrap; line-height:1.5;box-shadow:0px 0px 10px #999; -moz-box-shadow:0px 0px 10px #999; -webkit-box-shadow:0px 0px 10px #999; border-radius:3px 3px 3px 3px; -moz-border-radius:3px; -webkit-border-radius:3px;}
+a.mtooltip span img {max-width:450px;}
+a.mtooltip {background:#ffffff; text-decoration:none;cursor: help;} /*BG color is a must for IE6*/
+a.mtooltip:hover span{ left: 1em;top: 2em; margin-left: 0; z-index:99999; position:absolute; background:#ffffff; border:1px solid #cccccc; color:#6c6c6c;}
+
+.wppdiiv_logo{}
+.wppdiiv_logo img{ margin:10px; padding:10px;}
+
+
+#wpmchat_form { margin: 0px 0px 7px 0px; padding: 5px 0px 0px 0px; height: auto; font-size:12px; font-weight: normal; }
+
+#wpmchat_form #tabs {margin: 30px 0;}
+ul#wpmchat_ul { margin: 10px 0 0; padding: 0px 0px 0px 13px; list-style-type: none; border-bottom: 3px solid #3A8BD4; overflow: hidden;}
+ul#wpmchat_ul li{ margin:0!important; padding: 0!important;} 
+ul#wpmchat_ul li *{ margin: 0px 8px 0px 0px; padding: 6px 24px; float: left; font-family: Georgia, "Times New Roman", Times, serif; font-size: 11px; 
+		font-weight: bold; color: #333333; cursor: pointer; background-color: #EDEDED; }
+ul#wpmchat_ul li a{ border-top: 1px solid #3A8BD4; border-radius:6px 6px 0 0;}
+ul#wpmchat_ul li.ui-tabs-selected, ul#wpmchat_ul li.ui-tabs-selected *, 
+ul#wpmchat_ul li.ui-state-active, ul#wpmchat_ul li.ui-state-active *, 
+ul#wpmchat_ul li:hover, ul#wpmchat_ul li:hover * { color: #fff!important; background-color: #3A8BD4; }
+
+.ui-widget-header{border-top:0!important; border-left:0!important; border-right:0!important; background:none!important;}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active ,
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {border: 0!important;background: none!important;}
+
+.ui-tabs-hide{ display:none;}
+
+.password-wrapper{margin:0; padding:5px; width:22px; height:22px; background-color:#efefef; border:1px solid #ccc; border-radius:3px;margin-left:-32px;cursor:pointer;}
+.password-wrapper i{margin:0; padding:0px; position:relative;margin-left:0; margin-top:4px;}

@@ -1,0 +1,75 @@
+#wpmchat_wrapper_inbox, #wpmchat_wrapper_inbox * {box-sizing:border-box; }
+#wpmchat_wrapper_inbox{margin:0; padding:0; z-index:99999999; position:fixed; bottom:0; right:0; width:300px; height:400px; background-color:#fff; 
+	border:1px solid #000;border-top-left-radius:5px;box-shadow:0px 0px 10px #999; -moz-box-shadow:0px 0px 10px #999; -webkit-box-shadow:0px 0px 10px #999; 
+	border-radius:5px 0px 0px 0px; -moz-border-radius:5px 0 0 0; -webkit-border-radius:5px 0 0 0;transition:all .2s ease-in-out;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size: 14px;line-height: 1.4;}
+#wpmchat_wrapper_inbox::-webkit-scrollbar { width: 10px;}
+
+#wpmchat_wrapper_inbox h3{ margin:0; padding:8px; background-color:#000; color:#fff; font-size:16px;}
+#wpmchat_wrapper_inbox #wpmchat_inbox_collapse{margin:0; padding:0; float:right;cursor:pointer;}
+#wpmchat_messages{margin:0; padding:0; height:100%; width:100%;}
+#wpmchat_inbox_list{margin:0; padding:0; list-style:none; max-height:305px;overflow-y:auto;scrollbar-color: #bec0c2 #f7f7f7;scrollbar-width:thin;}
+#wpmchat_inbox_list li{margin:0; padding:10px; border-bottom:1px solid #dcdcdc;}
+#wpmchat_inbox_list li:hover{  background-color:#f0f0f0;transition:background-color .1s ease-in-out;cursor:pointer;}
+#wpmchat_inbox_list .wpmchat_chatname{margin:0; padding:0; }
+#wpmchat_inbox_list .wpmchat_chatdate{margin:0; padding:0; font-weight:normal; float:right; font-size:80%;}
+#wpmchat_inbox_list .wpmchat_online{margin:4px 5px 0 0; padding:0; line-height:1; border:1px solid #fff; height:8px; width:8px; border-radius:50%; display:inline-block; float:left;}
+#wpmchat_inbox_list .is_online{ background-color:#5dc26a}
+#wpmchat_inbox_list .is_offline{background-color:#bec0c2;}
+#wpmchat_inbox_list .is_read{font-weight:normal;}
+#wpmchat_inbox_list .is_unread{font-weight:bold;}
+
+#wpmchat_wrapper_message, #wpmchat_wrapper_message * {box-sizing:border-box; }
+#wpmchat_wrapper_message::-webkit-scrollbar { width: 10px;}
+
+#wpmchat_wrapper_message{margin:0; padding:0; z-index:99999999; position:fixed; bottom:0; right:310px; width:300px; height:400px; background-color:#fff; 
+	border:1px solid #000;border-top-left-radius:5px;box-shadow:0px 0px 10px #999; -moz-box-shadow:0px 0px 10px #999; -webkit-box-shadow:0px 0px 10px #999; 
+	border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0 0; -webkit-border-radius:5px 5px 0 0;transition:all .2s ease-in-out;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";font-size: 14px;line-height: 1.4;}
+
+#wpmchat_wrapper_message h3{ margin:0; padding:8px; background-color:#000; color:#fff; font-size:16px;}
+#wpmchat_wrapper_message #wpmchat_user_icons {float:right;}
+#wpmchat_wrapper_message #wpmchat_message_block {margin:0 10px;cursor:pointer;}
+#wpmchat_wrapper_message #wpmchat_message_block.dashicons-warning{color:#ff2323;}
+#wpmchat_wrapper_message #wpmchat_message_close {cursor:pointer;}
+
+#wpmchat_wrapper_message #wpmchat_mesg_list{margin:0; padding:0; list-style:none;max-height:240px; overflow-y:auto;scrollbar-color: #bec0c2 #f7f7f7;scrollbar-width:thin;}
+#wpmchat_wrapper_message .wpmchat_chat_msg{ margin:10px 5px; padding:5px;  width:auto; -webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;word-wrap: break-word; min-width:50%; }
+#wpmchat_wrapper_message .wpmchat_chat_msg.reply{ float:left; border-top-right-radius:10px; border-bottom-right-radius:10px; border:1px solid #dedec4; background-color: #dedec4;}
+#wpmchat_wrapper_message .wpmchat_chat_msg.author{ float:right; border-top-left-radius:10px; border-bottom-left-radius:10px; border:1px solid #dedec4; background-color: #fff;}
+#wpmchat_wrapper_message .wpmchat_chat_msg .is_unread{font-weight:bold;}
+#wpmchat_wrapper_message .wpmchat_chat_msg .wpmchat_chattime{margin:0; padding:10px 0 0 10px; display:flex; font-weight:normal; font-size:80%;float:right;}
+#wpmchat_wrapper_message #wpmchat_message_list{position:relative; height:100%;}
+#wpmchat_wrapper_message #wpmchat_write_wrapper{margin:0; padding:0; white-space:nowrap;}
+#wpmchat_wrapper_message #wpmchat_message_list textarea#wpmchat_write{margin:0; padding:3px 6px; width:230px; height:60px; position:absolute; left:5px; bottom:45px;
+	border: 1px solid #ccc;border-radius: 3px;font-family: inherit;resize:none;}
+#wpmchat_wrapper_message #wpmchat_message_list textarea#wpmchat_write:hover{border: 1px solid #999;}
+
+#wpmchat_wrapper_message #wpmchat_message_list #wpmchat_write_submit{margin:0; padding:0; width:50px; height:57px; position:absolute; right:5px; bottom:45px;
+	transition: background 0.2s ease-in-out;border: none;border-radius: 5px;font-size:14px;font-weight: bold; line-height: 1.2; text-decoration: none; 
+	vertical-align: bottom;text-rendering:optimizeLegibility; background-image:unset; background-color: #0073aa; color: #fff;}
+
+#wpmchat_wrapper_message #wpmchat_message_list #wpmchat_write_submit:hover {cursor: pointer;background: #0073aa; color: #fff;}
+
+#wpmchat_branding{margin:0 auto; padding:4px; z-index: 99999999999999;position: absolute;bottom:0px;right:0px;font-size:10px;}
+
+.wpmchat_msg{ margin:15px 0; padding:10px 20px;background-color: rgb(232, 235, 255); border:1px dotted rgb(0, 0, 204); color:#000; clear:both; }
+.wpmchat_err{ margin:15px 0; padding:10px 20px;background-color: rgb(255, 235, 232); border:1px dotted rgb(204, 0, 0); color:#000; clear:both; }
+
+.description{ font-size:12px;}
+.clear{ clear:both; }
+.wpmchat_errr{border:1px solid #ff2323!important;}
+.req::after{content:' *'; color:#ff2323;font-size:11px;}
+
+@media (max-width: 1100px) {
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 650px) {
+}
+@media (max-width: 500px) {
+}
+@media (max-width: 450px) {
+}
