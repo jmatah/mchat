@@ -1,4 +1,4 @@
-=== MChat ===
+=== MChat User Chat ===
 Contributors: MSolution
 plugin name: MChat
 Tags: chat, plugin, ajax chat, ajax chat plugn, chat plugin, pure ajax chat, one to one chat, one 2 one chat, shortcode, wordpress chat, wordpress plugin, instant message, messaging, communication, contact, message
